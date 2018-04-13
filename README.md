@@ -2,7 +2,7 @@
 Unfortunately official provided [API](https://angel.co/api) by angel.co was shut down.
 
 This script allows you parse the list of the companies provided by angel.co from the page [All Companies](https://angel.co/companies)
-and save it to .csv file.
+and save it to all_companies.csv file.
 Personally, I was interested only in a few columns such as `'name','desc','website','location','employees','raised','angel_url','angel_id'` however it wouldn't be hard to add or remove desirable columns.
 
 Also, I encourage to take a look at this sites, that I found pretty useful for small piece of data:
