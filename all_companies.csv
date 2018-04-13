@@ -1,4 +1,4 @@
-name,desc,angelListUrl,location,employees,raised,website,angel_id
+name,desc,website,location,employees,raised,angel_url,angel_id
 Magnar,Portuguese food-ordering marketplace,https://angel.co/magnar,Lisbon,-,-,http://www.magnarapp.com/,3322647
 Cleargraph,Zero-friction identity verification,https://angel.co/cleargraphinc,San Francisco,1-10,-,https://cleargraph.com/careers.html,3405248
 Princeton Ventures,Princeton Ventures leads growth equity investments of $10 million to over $100 million.,https://angel.co/princeton-ventures,Princeton,1-10,-,http://www.princetonventures.com,3365754
@@ -219,7 +219,6 @@ Partnered,The company-to-company business development network connecting startup
 NodeFly,Node.js Monitoring,https://angel.co/nodefly,Vancouver,-,"$800,000",https://nodefly.com,97051
 Tictail,Discover the world's best independent brands,https://angel.co/tictail,Stockholm,51-200,"$34,150,000",http://www.tictail.com,108300
 Mango Health,Mobile health company inspiring patients with chronic conditions to lead healthier lives.,https://angel.co/mango-health,San Francisco,11-50,"$8,300,000",http://www.mangohealth.com,112863
-EVELO Electric Bicycles,Smart Electric Bicycles Delivered to Your Door,https://angel.co/evelo,New York City,11-50,"$750,000",http://www.evelo.com,113751
 Qubell,Adaptive Platform-as-a-Service for the enterprises,https://angel.co/qubell,Menlo Park,11-50,"$2,800,000",http://qubell.com,114143
 Bluetrain.io,Cloud CMS for Developers,https://angel.co/bluetrain-io,Cambridge,1-10,"$1,530,000",http://www.bluetrain.io,113802
 DeNA,-,https://angel.co/dena,Tokyo,1001-5000,-,http://dena.com/,112869
@@ -260,6 +259,7 @@ Meetings.io,Effortless Video Meetings,https://angel.co/meetings-io,San Francisco
 STOWER,Mobile-Enabled Energy,https://angel.co/flamestower,Boulder,1-10,-,http://www.stowerenergy.com,149591
 Kidaptive,-,https://angel.co/kidaptive,Redwood City,11-50,"$24,650,000",http://www.kidaptive.com,149285
 SpaceCurve,-,https://angel.co/spacecurve,Seattle,-,"$12,300,000",http://www.spacecurve.com,150512
+SpaceCurve,-,https://angel.co/spacecurve,Seattle,-,"$12,300,000",http://www.spacecurve.com,150512
 Realty Mogul,"Online, crowdfunding, capital markets platform for real estate investing.",https://angel.co/realty-mogul,Los Angeles,51-200,"$45,020,000",http://www.realtymogul.com,150420
 Lakestar,-,https://angel.co/lakestar,Europe,11-50,-,http://www.lakestar.com,150252
 Cyphort,Cyber Security,https://angel.co/cyphort,Palo Alto,51-200,"$53,700,000",http://www.cyphort.com,152556
@@ -279,7 +279,6 @@ Disruption,"Research, Investment & Advice For The Private Market.",https://angel
 Allocadia,Cloud enterprise software for the CMO,https://angel.co/allocadia,Vancouver,11-50,"$1,000,000",http://www.allocadia.com,149798
 clypd,"Changing TV advertising, one person at a time",https://angel.co/clypd,Somerville,11-50,"$29,800,000",http://www.clypd.com/,152548
 byUs,Exclusive recommendations for hard-to-find service providers.,https://angel.co/byus,San Francisco,1-10,"$1,500,000",http://byUs.com,152954
-Heavybit,Take your developer product to market,https://angel.co/heavybit-industries,San Francisco,1-10,-,http://heavybit.com,153310
 Pitango,Largest VC in Israel with $1.6B under management ,https://angel.co/pitango,-,-,-,http://www.pitango.com,153317
 Human API,Real-Time Health Data Network,https://angel.co/humanapi,San Mateo,11-50,-,http://humanapi.co,152635
 SkyKick,Cloud Management for Partners,https://angel.co/skykick,Seattle,51-200,"$21,700,000",http://www.skykick.com,148325
@@ -300,6 +299,7 @@ Startcaps Ventures,VC firm,https://angel.co/startcaps-ventures,San Francisco,1-1
 Netshoes,-,https://angel.co/netshoes,-,-,"$170,000,000",-,183967
 BoxC,Cross-Border Shipping. Simply.,https://angel.co/boxc,New York City,1-10,"$1,700,000",https://www.boxc.com,175496
 Kima Ventures,"Investing in 2 to 3 startups per week, all over the world.",https://angel.co/kima-ventures,London,1-10,-,http://www.kimaventures.com/,177108
+Kima Ventures,"Investing in 2 to 3 startups per week, all over the world.",https://angel.co/kima-ventures,London,1-10,-,http://www.kimaventures.com/,177108
 CrowdStreet,Connecting Investors with Investment Real Estate,https://angel.co/crowdstreet,Portland,1-10,"$4,850,000",http://crowdstreet.com,175707
 Streem,Unlimited Cloud Storage For Your Media (YC S12),https://angel.co/streem,San Francisco,1-10,"$875,000",https://www.streem.com,175020
 BloomThat,Send a little something! Fresh Stems + Sweet Surprises,https://angel.co/bloomthat,San Francisco,11-50,"$7,600,000",http://www.bloomthat.com,175330
@@ -319,7 +319,6 @@ MicroTransponder,Device Based Tinnitus and Stroke Therapy,https://angel.co/micro
 Sookasa (acquired by Barracuda Networks),"Data security for SaaS (Dropbox, Google Apps, Office 365)",https://angel.co/sookasa,Campbell,11-50,"$6,600,000",http://www.sookasa.com,126178
 YPlan,Live Your City.,https://angel.co/yplan,London,51-200,"$37,700,000",http://yplanapp.com,126138
 Mulu,Deep Learning for Intelligent Commerce,https://angel.co/mulu,San Francisco,1-10,"$3,641,507",http://www.mulu.me,126070
-Galvanize Ventures,Investment Fund,https://angel.co/galvanize-ventures,Denver,1-10,-,http://www.galvanize.com/venture,126710
 Assembled,Connecting Professionals Around the World,https://angel.co/hx,Palo Alto,1-10,-,http://www.assembled.com,126579
 yozio,Organic Mobile Growth Platform,https://angel.co/yozio,Oakland,,"$7,000,000",http://www.yozio.com,126698
 Peak,Brain training reimagined for your mobile lifestyle,https://angel.co/peak-1,London,11-50,"$10,000,000",http://www.peak.net,127085
@@ -340,6 +339,7 @@ Vocap Ventures,Early & Growth-stage VC,https://angel.co/vocap-ventures,New York 
 Pagedip (formerly Beneath the Ink),"Engaging, interactive, measurable digital documentation",https://angel.co/pagedip,Boulder,1-10,"$640,000",http://www.Pagedip.com,125855
 Zesty,Healthy office catering (YC W14),https://angel.co/zesty-1,San Francisco,51-200,"$20,700,000",http://zesty.com,126085
 Floqq,Online Education ,https://angel.co/floqq,San Francisco,11-50,"$925,000",http://www.floqq.com,126514
+Floqq,Online Education ,https://angel.co/floqq,San Francisco,11-50,"$925,000",http://www.floqq.com,126514
 Embrace,Authentic Customer Relationships,https://angel.co/embrace-1,Austin,1-10,"$250,000",http://www.embracecustomers.com,126464
 KidAdmit,Giving your kids every opportunity,https://angel.co/kidadmit,San Francisco,1-10,"$500,000",http://www.kidadmit.com,127242
 AuditFile,Cloud based audit software for CPA firms,https://angel.co/auditfile,San Francisco,1-10,"$6,000,000",http://www.auditfile.com,127822
@@ -359,7 +359,6 @@ Tylr Mobile,"Connected Mobile Work For the Enterprise, Starting with a Salespers
 Rearden Capital Management,-,https://angel.co/rearden-capital-management-1,New York City,1-10,-,http://reardencapital.com/,159119
 H/F Next Fund,One investment. Top 17 startups.,https://angel.co/h-f-next-fund,Mountain View,11-50,"$575,000",http://hf.cx/invest,159466
 DropShip Commerce - Dsco,LinkedIn for Distributed/eCommerce Supply Chain,https://angel.co/dropship,Salt Lake City,1-10,"$4,300,000",http://www.dropship.com,98360
-Vaxess Technologies,Using Silk To Create Heat Stable Vaccines,https://angel.co/vaxess-technologies,Boston,1-10,"$4,750,000",http://www.vaxess.com,98276
 CloudPeeps,The #1 all-in-one platform for running a freelance business,https://angel.co/cloudpeeps,San Francisco,1-10,-,http://cloudpeeps.com,97247
 Glider (Acquired by FPX),Business intelligence and shorter sales cycles for the contract process.,https://angel.co/glider-acquired-by-fpx,Portland,1-10,"$1,350,000",http://www.glider.com,98861
 True & Co,"Reinventing bra shopping. No fitting rooms, no measuring tape.",https://angel.co/true-co,San Francisco,11-50,-,http://trueandco.com,99087
@@ -399,3 +398,4 @@ Maven Ventures,The leading Seed venture fund for emerging consumer software star
 Misfit,Inventing and manufacturing wearable and smart home products,https://angel.co/misfit,San Francisco,51-200,"$324,396,675",http://www.misfit.com,167266
 Slow Ventures,Never climb alone.,https://angel.co/slow-ventures,Boston,11-50,-,http://slow.co,167897
 Plastiq,"Make payments for tuition, cars, and more on credit card",https://angel.co/plastiq,San Francisco,11-50,"$29,300,000",https://www.plastiq.com/,167892
+URX,"The Deeplink Search Engine, For Developers (YC S13)",https://angel.co/urx,San Francisco,11-50,"$15,100,000",http://www.urx.com,164278
