@@ -2,13 +2,22 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import time
+import os.path
+import argparse
 
 js = "https://angel.co/company_filters/search_data"
 headers = {"X-Requested-With": "XMLHttpRequest",
            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36"}
-df_columns = ['name','desc','website','location','employees','raised','angel_url','angel_id']
 
 u = "https://angel.co/companies/startups?ids%5B%5D={}&total={}&page={}&sort=signal&new=false&hexdigest={}"
+df_columns = ['name','desc','website','location','employees','raised','angel_url','angel_id']
+csv_name = 'all_companies.csv'
+
+# construct the argument parser and parse the arguments
+ap = argparse.ArgumentParser()
+ap.add_argument("-q", "--query", required=False,
+	help="Search companies with specific market query")
+args = vars(ap.parse_args())
 
 def parse_companies(companies):
     df = pd.DataFrame(columns=df_columns)
@@ -78,16 +87,22 @@ def get_next_pages(js, u, search_query='', start_page=1):
             time.sleep(.3)
             yield companies
 
+def create_csv():
+    df = pd.DataFrame(columns=df_columns)
+    df.to_csv(csv_name, index=None)
+
 def add_parsed_companies_to_all(parsed_df):
-    all_companies = pd.read_csv('all_companies.csv', index_col='name')
+    if not os.path.isfile(csv_name):
+        create_csv()
+    all_companies = pd.read_csv(csv_name, index_col='name')
     parsed_df = parsed_df.set_index('name')
     all_companies = pd.concat([all_companies, parsed_df])
     unique_companies = all_companies.drop_duplicates()
-    unique_companies.to_csv('all_companies.csv')
-    print('data have been written')
+    unique_companies.to_csv(csv_name)
+    print('data has been written')
 
 def start():
-    companies = get_next_pages(js, u)
+    companies = get_next_pages(js, u, search_query=args['query'])
     df = pd.DataFrame(columns=df_columns)
 
     for idx, comps in enumerate(companies):
@@ -98,4 +113,4 @@ def start():
     add_parsed_companies_to_all(df)
 
 if __name__ == '__main__':
-   start()
+    start()
